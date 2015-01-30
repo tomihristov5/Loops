@@ -1,0 +1,5 @@
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\PrintADeckOf52Card\bin\Debug\PrintADeckOf52Card.exe.config
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\PrintADeckOf52Card\bin\Debug\PrintADeckOf52Card.exe
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\PrintADeckOf52Card\bin\Debug\PrintADeckOf52Card.pdb
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\PrintADeckOf52Card\obj\Debug\PrintADeckOf52Card.exe
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\PrintADeckOf52Card\obj\Debug\PrintADeckOf52Card.pdb

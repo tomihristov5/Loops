@@ -1,0 +1,6 @@
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\CalculateProb6\bin\Debug\CalculateProb6.exe.config
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\CalculateProb6\bin\Debug\CalculateProb6.exe
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\CalculateProb6\bin\Debug\CalculateProb6.pdb
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\CalculateProb6\obj\Debug\CalculateProb6.exe
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\CalculateProb6\obj\Debug\CalculateProb6.pdb
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\CalculateProb6\obj\Debug\06.CalculateProb6.csprojResolveAssemblyReference.cache

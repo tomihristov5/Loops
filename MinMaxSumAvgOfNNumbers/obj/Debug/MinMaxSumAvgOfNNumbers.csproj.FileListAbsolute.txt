@@ -1,0 +1,1 @@
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\MinMaxSumAvgOfNNumbers\bin\Debug\MinMaxSumAvgOfNNumbers.exe.config

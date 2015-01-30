@@ -1,0 +1,5 @@
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\CalculateProb7\bin\Debug\CalculateProb7.exe.config
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\CalculateProb7\bin\Debug\CalculateProb7.exe
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\CalculateProb7\bin\Debug\CalculateProb7.pdb
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\CalculateProb7\obj\Debug\CalculateProb7.exe
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\CalculateProb7\obj\Debug\CalculateProb7.pdb

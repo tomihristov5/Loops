@@ -1,0 +1,6 @@
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\NumbersNotDevisibleBy3And7\bin\Debug\NumbersNotDevisibleBy3And7.exe.config
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\NumbersNotDevisibleBy3And7\bin\Debug\NumbersNotDevisibleBy3And7.exe
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\NumbersNotDevisibleBy3And7\bin\Debug\NumbersNotDevisibleBy3And7.pdb
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\NumbersNotDevisibleBy3And7\obj\Debug\02.NumbersNotDevisibleBy3And7.csprojResolveAssemblyReference.cache
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\NumbersNotDevisibleBy3And7\obj\Debug\NumbersNotDevisibleBy3And7.exe
+c:\users\hrist0v\documents\visual studio 2013\Projects\Loops\NumbersNotDevisibleBy3And7\obj\Debug\NumbersNotDevisibleBy3And7.pdb
