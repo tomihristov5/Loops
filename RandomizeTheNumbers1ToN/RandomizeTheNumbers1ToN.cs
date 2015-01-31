@@ -8,12 +8,27 @@ class RandomizeTheNumbers1ToN
 {
     static void Main()
     {
-        Console.WriteLine("Enter number n: ");
+        Console.Write("Enter number n: ");
         int n = int.Parse(Console.ReadLine());
         int[] arr = new int[n];
-        foreach (int i in arr)
+        int counter = 0;
+        Random rnd = new Random();
+        for (int i = 1; i <= n; i++)
         {
-            Console.Write(i);
+            arr[counter] = i;
+            counter++;
+        }
+        for (int i = 0; i < counter; i++)
+        {
+            int firstRndNumber = rnd.Next(0, counter);
+            int secondRndNumber = rnd.Next(0, counter);
+            int tempArr = arr[firstRndNumber];
+            arr[firstRndNumber] = arr[secondRndNumber];
+            arr[secondRndNumber] = tempArr;
+        }
+        for (int i = 0; i < counter; i++)
+        {
+            Console.Write(arr[i] + " ");
         }
         Console.WriteLine();
     }

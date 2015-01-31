@@ -14,7 +14,6 @@ class CalculateProb5
         int x = int.Parse(Console.ReadLine());
         double sum = 1;
         int factorial = 1;
-        double exp = 1;
         do
         {
             factorial *= n;

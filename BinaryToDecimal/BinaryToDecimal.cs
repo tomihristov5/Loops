@@ -10,12 +10,17 @@ class BinaryToDecimal
     static void Main()
     {
         Console.Write("Enter a binary integer number: ");
-        string number = Convert.ToString(Console.ReadLine());
-        for (int i = 0; i < number.Length; i++)
+        string input = Console.ReadLine();
+        long output = 0L;
+        for (int i = 0; i < input.Length; i++)
         {
-            
+            if (input[input.Length - i - 1] != '0')
+            {
+                output += (long)Math.Pow(2, i);
+            }
         }
-        Console.WriteLine(number);
+        Console.Write("The decimal number is: " + output);
+        Console.WriteLine();
     }
 }
 

@@ -10,14 +10,14 @@ class TrailingZerosInNFactorial
     {
         Console.Write("Enter number n: ");
         int n = int.Parse(Console.ReadLine());
-        long factorial = 1;
-        do
+        int trailingZeroes = 0;
+        int divisor = 5;
+        while (n / divisor >= 1)
         {
-            factorial *= n;
-            n--;
-            Convert.ToString(factorial);
-        } while (n>0);
-        Console.WriteLine(factorial);
+            trailingZeroes += n / divisor;
+            divisor *= 5;
+        }
+        Console.WriteLine("The trailing zeroes are: " + trailingZeroes);
     }
 }
 
