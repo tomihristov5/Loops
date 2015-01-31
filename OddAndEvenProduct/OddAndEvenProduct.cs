@@ -10,7 +10,36 @@ class OddAndEvenProduct
 {
     static void Main()
     {
-        
+        Console.Write("Enter n numbers separated by space: ");
+        string[] separator = {",", ".", "!", "?", ";", ":", " "};
+        string numbers = Convert.ToString(Console.ReadLine());
+        string[] words = numbers.Split(separator, StringSplitOptions.RemoveEmptyEntries);
+        int n = words.Length;
+        int evenProduct = 1;
+        int oddProduct = 1;
+        for (int i = 0; i < n; i++)
+        {
+            if (i % 2 == 0)
+            {
+                string numb = words[i];
+                int num = int.Parse(numb);
+                oddProduct *= num;
+            }
+            else
+            {
+                string numb = words[i];
+                int num = int.Parse(numb);
+                evenProduct *= num;
+            }
+        }
+        Console.WriteLine("The even product is: " + evenProduct);
+        Console.WriteLine("The odd product is: " + oddProduct);
+        if (evenProduct == oddProduct)
+        {
+            Console.WriteLine("{0} is equal with {1}!",evenProduct , oddProduct);
+        }
+        else
+            Console.WriteLine("{0} is not equal with {1}!", evenProduct, oddProduct);
     }
 }
 
