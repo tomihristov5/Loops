@@ -9,6 +9,7 @@ class BinaryToDecimal
 {
     static void Main()
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.Write("Enter a binary integer number: ");
         string input = Console.ReadLine();
         long output = 0L;

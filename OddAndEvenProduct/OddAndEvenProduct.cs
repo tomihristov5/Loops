@@ -10,6 +10,7 @@ class OddAndEvenProduct
 {
     static void Main()
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.Write("Enter n numbers separated by space: ");
         string[] separator = {",", ".", "!", "?", ";", ":", " "};
         string numbers = Convert.ToString(Console.ReadLine());

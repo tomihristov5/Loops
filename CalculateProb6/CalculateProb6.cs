@@ -8,6 +8,7 @@ class CalculateProb6
 {
     static void Main()
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.Write("Enter n: ");
         int n = int.Parse(Console.ReadLine());
         Console.Write("Enter k: ");

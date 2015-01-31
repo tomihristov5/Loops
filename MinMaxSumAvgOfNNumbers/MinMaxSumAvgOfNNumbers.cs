@@ -11,6 +11,7 @@ class MinMaxSumAvgOfNNumbers
 {
     static void Main()
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.Write("Enter the number of integers: ");
         int n = int.Parse(Console.ReadLine());
         int[] arr = new int[n];

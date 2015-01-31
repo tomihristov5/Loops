@@ -8,6 +8,7 @@ class TrailingZerosInNFactorial
 {
     static void Main()
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.Write("Enter number n: ");
         int n = int.Parse(Console.ReadLine());
         int trailingZeroes = 0;

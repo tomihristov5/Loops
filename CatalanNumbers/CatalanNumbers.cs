@@ -8,6 +8,7 @@ class CatalanNumbers
 {
     static void Main()
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.Write("Enter n: ");
         int n = int.Parse(Console.ReadLine());
         long factN = 1L;

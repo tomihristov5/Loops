@@ -7,6 +7,7 @@ class RandomNumbersFromGivenRange
 {
     static void Main()
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Random rnd = new Random();
         Console.Write("Enter integer n: ");
         int n = int.Parse(Console.ReadLine());

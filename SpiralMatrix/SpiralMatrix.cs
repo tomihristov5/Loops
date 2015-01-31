@@ -8,6 +8,7 @@ class SpiralMatrix
 {
     static void Main()
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.Write("Enter number n from 1 to 20: ");
         int n = int.Parse(Console.ReadLine());
         int[,] matrix = new int[n, n];

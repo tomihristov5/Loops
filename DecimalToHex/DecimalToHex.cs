@@ -10,6 +10,7 @@ class DecimalToHex
 {
     static string DecToHex(long dec)
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         var sbulder = new StringBuilder();
         while (dec > 0)
         {

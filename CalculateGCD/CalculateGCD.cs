@@ -8,6 +8,7 @@ class CalculateGCD
 {
     static void Main()
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.Write("Enter number a: ");
         int a = int.Parse(Console.ReadLine());
         Console.Write("Enter number b: ");

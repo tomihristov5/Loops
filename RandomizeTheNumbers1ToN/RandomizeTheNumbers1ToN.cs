@@ -8,6 +8,7 @@ class RandomizeTheNumbers1ToN
 {
     static void Main()
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.Write("Enter number n: ");
         int n = int.Parse(Console.ReadLine());
         int[] arr = new int[n];

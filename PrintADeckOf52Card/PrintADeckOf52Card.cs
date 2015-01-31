@@ -11,6 +11,7 @@ class PrintADeckOf52Card
 {
     static void Main()
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         string[] sign = new string[] { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
         string[] color = new string[] { "clubs", "diamonds", "hearts", "spades" };
         for (int i = 0; i < 13; i++)

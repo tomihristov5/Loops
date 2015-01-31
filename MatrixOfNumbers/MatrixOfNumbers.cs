@@ -8,6 +8,7 @@ class MatrixOfNumbers
 {
     static void Main()
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.Write("Enter number n from 1 to 20: ");
         int n = int.Parse(Console.ReadLine());
         for (int i = 1; i <= n; i++)
